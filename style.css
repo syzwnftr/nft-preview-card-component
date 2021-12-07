@@ -38,6 +38,7 @@ main {
 .equilibrium {
   width: 100%;
   margin-bottom: 1.2rem;
+  border-radius: 0.5rem;
 }
 
 h1 {
