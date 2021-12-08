@@ -42,11 +42,18 @@ main {
   border-radius: 0.5rem;
 }
 
+h1:hover,
+.owner p:hover {
+  cursor: pointer;
+  color: var(--cyan);
+}
+
 h1 {
   color: var(--white);
   font-size: 1.125rem;
   margin-bottom: 1.2rem;
   font-weight: 600;
+  transition: color 0.5s;
 }
 
 .description {
@@ -98,6 +105,7 @@ h1 {
 .owner p {
   color: var(--white);
   font-weight: 400;
+  transition: color 0.5s;
 }
 
 .owner p span {
