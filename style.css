@@ -33,6 +33,7 @@ main {
   padding: 1.5rem;
   background-color: var(--dark-blue-card-bg);
   border-radius: 1rem;
+  box-shadow: 10px 30px 20px 10px hsl(218, 49%, 11%);
 }
 
 .equilibrium {
