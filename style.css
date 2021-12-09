@@ -136,7 +136,7 @@ h1 a {
 }
 
 .owner p {
-  color: var(--white);
+  color: var(--soft-blue);
   font-weight: 400;
   transition: color 0.5s;
 }
@@ -144,7 +144,7 @@ h1 a {
 #name {
   font-weight: 400;
   transition: color 0.5s;
-  color: var(--soft-blue);
+  color: var(--white);
   text-decoration: none;
 }
 
