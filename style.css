@@ -48,21 +48,28 @@ main {
   position: absolute;
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
   transition: all 0.5s ease-out;
 }
 
 .img-div a:hover {
   background: hsla(178, 100%, 50%, 0.5);
+  opacity: 1;
 }
 
-.img-div a:hover::before {
+/* To display icon when hover using ::before */
+
+/* .img-div a:hover::before {
   content: "";
   background: url("./images/icon-view.svg") no-repeat;
   background-position: center;
   position: absolute;
   width: 100%;
   height: 100%;
-}
+} */
 
 .equilibrium {
   max-width: 100%;
